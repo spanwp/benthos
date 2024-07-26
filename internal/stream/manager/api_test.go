@@ -2,7 +2,6 @@ package manager_test
 
 import (
 	"bytes"
-	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
@@ -13,6 +12,8 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/Jeffail/gabs/v2"
 	"github.com/gorilla/mux"

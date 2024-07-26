@@ -1,9 +1,10 @@
 package query
 
 import (
-	"encoding/json"
 	"strconv"
 	"testing"
+
+	"github.com/goccy/go-json"
 
 	"github.com/Jeffail/gabs/v2"
 	"github.com/stretchr/testify/assert"

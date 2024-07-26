@@ -2,12 +2,13 @@ package test
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
 	"net/url"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/goccy/go-json"
 
 	"github.com/Jeffail/gabs/v2"
 	yaml "gopkg.in/yaml.v3"

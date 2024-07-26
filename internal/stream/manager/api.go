@@ -2,13 +2,14 @@ package manager
 
 import (
 	"context"
-	"encoding/json"
 	"errors"
 	"fmt"
 	"io"
 	"net/http"
 	"strings"
 	"sync"
+
+	"github.com/goccy/go-json"
 
 	"github.com/Jeffail/gabs/v2"
 	"github.com/gorilla/mux"

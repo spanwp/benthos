@@ -2,7 +2,6 @@ package studio_test
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
@@ -14,6 +13,8 @@ import (
 	"sync"
 	"testing"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/nsf/jsondiff"
 	"github.com/stretchr/testify/assert"

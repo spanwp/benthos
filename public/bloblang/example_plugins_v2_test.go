@@ -1,10 +1,11 @@
 package bloblang_test
 
 import (
-	"encoding/json"
 	"fmt"
 	"math/rand"
 	"strings"
+
+	"github.com/goccy/go-json"
 
 	"github.com/redpanda-data/benthos/v4/public/bloblang"
 )

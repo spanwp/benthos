@@ -1,9 +1,10 @@
 package service
 
 import (
-	"encoding/json"
 	"errors"
 	"fmt"
+
+	"github.com/goccy/go-json"
 
 	"go.opentelemetry.io/otel/trace"
 

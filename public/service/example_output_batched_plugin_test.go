@@ -2,8 +2,9 @@ package service_test
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
+
+	"github.com/goccy/go-json"
 
 	"github.com/redpanda-data/benthos/v4/public/service"
 

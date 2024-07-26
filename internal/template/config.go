@@ -1,9 +1,10 @@
 package template
 
 import (
-	"encoding/json"
 	"errors"
 	"fmt"
+
+	"github.com/goccy/go-json"
 
 	"github.com/fatih/color"
 	"github.com/nsf/jsondiff"

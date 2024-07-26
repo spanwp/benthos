@@ -1,9 +1,10 @@
 package message
 
 import (
-	"encoding/json"
 	"reflect"
 	"testing"
+
+	"github.com/goccy/go-json"
 )
 
 //------------------------------------------------------------------------------

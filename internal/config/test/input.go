@@ -1,9 +1,10 @@
 package test
 
 import (
-	"encoding/json"
 	"io/fs"
 	"path/filepath"
+
+	"github.com/goccy/go-json"
 
 	"github.com/redpanda-data/benthos/v4/internal/docs"
 	"github.com/redpanda-data/benthos/v4/internal/filepath/ifs"

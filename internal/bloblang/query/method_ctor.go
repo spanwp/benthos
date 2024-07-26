@@ -1,8 +1,9 @@
 package query
 
 import (
-	"encoding/json"
 	"fmt"
+
+	"github.com/goccy/go-json"
 
 	"github.com/redpanda-data/benthos/v4/internal/value"
 )

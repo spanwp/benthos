@@ -2,11 +2,12 @@ package query
 
 import (
 	"bytes"
-	"encoding/json"
 	"errors"
 	"fmt"
 	"sort"
 	"strings"
+
+	"github.com/goccy/go-json"
 
 	"github.com/Jeffail/gabs/v2"
 	jsonschema "github.com/xeipuuv/gojsonschema"

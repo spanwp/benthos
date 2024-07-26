@@ -1,11 +1,12 @@
 package cli
 
 import (
-	"encoding/json"
 	"errors"
 	"fmt"
 	"runtime/debug"
 	"strings"
+
+	"github.com/goccy/go-json"
 
 	"github.com/urfave/cli/v2"
 

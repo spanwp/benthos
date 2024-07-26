@@ -3,8 +3,9 @@ package pure
 import (
 	"bytes"
 	"context"
-	"encoding/json"
 	"fmt"
+
+	"github.com/goccy/go-json"
 
 	"github.com/itchyny/gojq"
 

@@ -13,7 +13,6 @@ import (
 	"encoding/base64"
 	"encoding/csv"
 	"encoding/hex"
-	"encoding/json"
 	"errors"
 	"fmt"
 	"hash"
@@ -26,6 +25,8 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/goccy/go-json"
 
 	"github.com/OneOfOne/xxhash"
 	"github.com/tilinna/z85"

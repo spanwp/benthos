@@ -2,9 +2,10 @@ package service
 
 import (
 	"bytes"
-	"encoding/json"
 	"strings"
 	"text/template"
+
+	"github.com/goccy/go-json"
 
 	"github.com/Jeffail/gabs/v2"
 	"gopkg.in/yaml.v3"

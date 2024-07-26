@@ -1,10 +1,11 @@
 package service
 
 import (
-	"encoding/json"
 	"fmt"
 	"sort"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/redpanda-data/benthos/v4/internal/bundle"
 	"github.com/redpanda-data/benthos/v4/internal/docs"

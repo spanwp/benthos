@@ -1,13 +1,14 @@
 package query
 
 import (
-	"encoding/json"
 	"errors"
 	"fmt"
 	"sort"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/redpanda-data/benthos/v4/internal/value"
 )

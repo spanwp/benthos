@@ -2,8 +2,9 @@ package pure
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
+
+	"github.com/goccy/go-json"
 
 	jmespath "github.com/jmespath/go-jmespath"
 

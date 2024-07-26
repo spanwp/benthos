@@ -1,8 +1,9 @@
 package bloblang
 
 import (
-	"encoding/json"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/redpanda-data/benthos/v4/internal/bloblang/query"
 )

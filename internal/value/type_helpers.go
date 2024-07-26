@@ -1,12 +1,13 @@
 package value
 
 import (
-	"encoding/json"
 	"errors"
 	"fmt"
 	"math"
 	"strconv"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/Jeffail/gabs/v2"
 )

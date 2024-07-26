@@ -1,7 +1,7 @@
 package bloblang
 
 import (
-	"encoding/json"
+	"github.com/goccy/go-json"
 
 	"github.com/Jeffail/gabs/v2"
 

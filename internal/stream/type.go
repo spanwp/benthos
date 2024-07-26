@@ -3,12 +3,13 @@ package stream
 import (
 	"bytes"
 	"context"
-	"encoding/json"
 	"errors"
 	"net/http"
 	"runtime/pprof"
 	"sync/atomic"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/redpanda-data/benthos/v4/internal/bloblang/query"
 	"github.com/redpanda-data/benthos/v4/internal/bundle"

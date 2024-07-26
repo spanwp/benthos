@@ -2,12 +2,13 @@ package studio
 
 import (
 	"bytes"
-	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
 	"net/url"
 	"path"
+
+	"github.com/goccy/go-json"
 
 	"github.com/urfave/cli/v2"
 

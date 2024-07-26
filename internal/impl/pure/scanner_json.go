@@ -2,8 +2,9 @@ package pure
 
 import (
 	"context"
-	"encoding/json"
 	"io"
+
+	"github.com/goccy/go-json"
 
 	"github.com/redpanda-data/benthos/v4/public/service"
 )

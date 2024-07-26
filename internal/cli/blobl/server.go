@@ -2,7 +2,6 @@ package blobl
 
 import (
 	"context"
-	"encoding/json"
 	"errors"
 	"fmt"
 	"html/template"
@@ -17,6 +16,8 @@ import (
 	"sync"
 	"syscall"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/urfave/cli/v2"
 

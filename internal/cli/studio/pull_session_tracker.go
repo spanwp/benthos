@@ -3,7 +3,6 @@ package studio
 import (
 	"bytes"
 	"context"
-	"encoding/json"
 	"errors"
 	"fmt"
 	"io"
@@ -14,6 +13,8 @@ import (
 	"strconv"
 	"sync"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/redpanda-data/benthos/v4/internal/cli/studio/metrics"
 	"github.com/redpanda-data/benthos/v4/internal/cli/studio/tracing"

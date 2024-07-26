@@ -3,13 +3,14 @@ package api
 import (
 	"context"
 	"crypto/tls"
-	"encoding/json"
 	"errors"
 	"fmt"
 	"net/http"
 	"net/http/pprof"
 	"runtime"
 	"sync"
+
+	"github.com/goccy/go-json"
 
 	"github.com/gorilla/mux"
 	yaml "gopkg.in/yaml.v3"

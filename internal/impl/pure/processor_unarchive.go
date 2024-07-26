@@ -6,11 +6,12 @@ import (
 	"bytes"
 	"context"
 	"encoding/csv"
-	"encoding/json"
 	"errors"
 	"fmt"
 	"io"
 	"strings"
+
+	"github.com/goccy/go-json"
 
 	"github.com/redpanda-data/benthos/v4/internal/message"
 	"github.com/redpanda-data/benthos/v4/public/service"

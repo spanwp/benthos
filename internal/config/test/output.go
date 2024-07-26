@@ -2,13 +2,14 @@ package test
 
 import (
 	"bytes"
-	"encoding/json"
 	"errors"
 	"fmt"
 	"io/fs"
 	"path/filepath"
 	"regexp"
 	"sort"
+
+	"github.com/goccy/go-json"
 
 	"github.com/fatih/color"
 	"github.com/nsf/jsondiff"

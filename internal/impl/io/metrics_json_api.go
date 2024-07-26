@@ -2,9 +2,10 @@ package io
 
 import (
 	"context"
-	"encoding/json"
 	"net/http"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/redpanda-data/benthos/v4/internal/component/metrics"
 	"github.com/redpanda-data/benthos/v4/public/service"

@@ -1,9 +1,10 @@
 package cli
 
 import (
-	"encoding/json"
 	"fmt"
 	"strings"
+
+	"github.com/goccy/go-json"
 
 	"github.com/urfave/cli/v2"
 	"golang.org/x/text/cases"
