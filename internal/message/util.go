@@ -2,12 +2,13 @@ package message
 
 import (
 	"bytes"
-	"encoding/json"
 	"errors"
 	"io"
 	"os"
 	"strconv"
 	"time"
+
+	"github.com/goccy/go-json"
 )
 
 var useNumber = true
