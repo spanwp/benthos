@@ -3,6 +3,39 @@ Changelog
 
 All notable changes to this project will be documented in this file.
 
+## 4.38.0 - 2024-09-17
+
+### Added
+
+- Go API: Method `Resources` added to the `ParsedConfig` type. (@Jeffail)
+
+## 4.37.0 - 2024-09-11
+
+### Fixed
+
+- The `switch` output metrics now emit the case id as part of their labels. This is a regression introduced in v4.25.0. (@mihaitodor)
+- Fixed a bug where certain logs used the `%w` verb to print errors resulting in incorrect output. (@mihaitodor)
+- Fields instantiated via `FieldObjectList` and `FieldObjectMap` should now yield correct observability paths. (@Jeffail)
+- The logger no longer tries to replace Go fmt verbs in log messages. (@mihaitodor)
+
+## 4.36.0 - 2024-08-29
+
+### Fixed
+
+- Linting error messages for unrecognised components now displays the candidates.
+
+## 4.35.0 - 2024-08-13
+
+- The `--set` run flag now supports structured values, e.g. `--set input={}`. (@Jeffail)
+
+## 4.34.0 - 2024-08-06
+
+### Added
+
+- The `list` subcommand now supports the format `jsonschema`. (@Jeffail)
+- Go API: New `WithX` methods added to the environment type. (@Jeffail)
+- Go API: New `ConfigWalker` API added to the schema type. (@Jeffail)
+
 ## 4.33.0 - 2024-07-19
 
 ### Added
