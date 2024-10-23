@@ -1,8 +1,7 @@
 package jsonschema
 
 import (
-	"encoding/json"
-
+	"github.com/goccy/go-json"
 	"github.com/redpanda-data/benthos/v4/internal/bundle"
 	"github.com/redpanda-data/benthos/v4/internal/docs"
 )
