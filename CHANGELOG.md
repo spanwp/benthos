@@ -3,6 +3,27 @@ Changelog
 
 All notable changes to this project will be documented in this file.
 
+## 4.42.0 - 2024-11-29
+
+### Added
+
+- Go API: Method `Resources() *service.Resources` added to the stream builders derived `Stream` type. (@Jeffail)
+- Go API: Integration stream test opt `StreamTestOptOnResourcesInit` added for accessing the resources of test components. (@Jeffail)
+- New `exists` operator added to the `cache` processor. (@mihaitodor)
+
+## 4.41.1 - 2024-11-25
+
+### Fixed
+
+- Fixed an issue where running a CLI with a custom environment would cause imported templates to be rejected.
+
+## 4.41.0 - 2024-11-20
+
+### Added
+
+- New Bloblang method `timestamp`. (@mihaitodor)
+- New `benchmark` processor. (@ooesili)
+
 ## 4.40.0 - 2024-10-25
 
 ### Added
